@@ -32,9 +32,9 @@ void sortFunction(int *aRy, const int &n)
 
 int main()
 {
-    cout << "Hello welcome to binary search" << endl;
-    int  n,searchKey;
-    cin >>n >>searchKey;
+    cout << "Hello welcome to sort algorithm" << endl;
+    int  n;
+    cin >>n;
     int arr[n];
     for(int i =0 ; i <n; i++)
         cin>>arr[i];
